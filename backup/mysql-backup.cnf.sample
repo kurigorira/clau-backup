@@ -1,0 +1,17 @@
+# MySQL バックアップ用アカウントの接続設定（サンプル）
+# C:\backup\secure\mysql-backup.cnf としてコピーし、パスワードを書き換えてください。
+# C:\backup\secure フォルダは、Administrators とバックアップ実行アカウントだけが読めるように権限を絞ってください。
+#
+# バックアップ用アカウントの作り方（MySQL に root でログインして実行）:
+#   CREATE USER 'backup'@'localhost' IDENTIFIED BY '長いパスワード';
+#   GRANT SELECT, SHOW VIEW, TRIGGER, LOCK TABLES, EVENT, PROCESS, RELOAD ON *.* TO 'backup'@'localhost';
+#   -- MySQL 8.0 以降は次も必要
+#   GRANT SHOW_ROUTINE ON *.* TO 'backup'@'localhost';   -- 8.0.20 以降
+#   GRANT FLUSH_TABLES ON *.* TO 'backup'@'localhost';   -- 8.0.32 以降で RELOAD の代わりに使える
+#
+# 読み取り専用の権限だけなので、このアカウントでデータが書き換わることはありません。
+
+[client]
+user=backup
+password="ここにパスワード"
+host=localhost

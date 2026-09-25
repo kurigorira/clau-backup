@@ -1,0 +1,4 @@
+# Windows PowerShell 5.1 で扱うファイルは CRLF で取り出す
+*.ps1    text eol=crlf
+*.sample text eol=crlf
+*.md     text eol=lf
