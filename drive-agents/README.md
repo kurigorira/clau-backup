@@ -13,6 +13,8 @@
 | `drive-personal` 個人記録エージェント | [07_個人記録・メモ](https://drive.google.com/drive/folders/1FBYXl1My0-nIf8LujihCxTb91NnQaSst) | `1FBYXl1My0-nIf8LujihCxTb91NnQaSst` |
 | `drive-learning` 学習・AIエージェント | [08_学習・AI・技術](https://drive.google.com/drive/folders/1fBMtyz2jgHPe9FGfw5bhFs3EUfJtgdxI) | `1fBMtyz2jgHPe9FGfw5bhFs3EUfJtgdxI` |
 | `drive-photos` 写真・動画アーカイブエージェント | [09_写真・動画アーカイブ](https://drive.google.com/drive/folders/1f3uuuzOwq2GgN9h-kaGitAXiEMM7bmsh) | `1f3uuuzOwq2GgN9h-kaGitAXiEMM7bmsh` |
+| `drive-kitatoku` 長崎北徳洲会病院エージェント（ユーザー作成・本リポジトリ外） | [10_長崎北徳洲会病院](https://drive.google.com/drive/folders/1IpO8MsvoSVi5wW3KR-r51agEGR6OFURY) | `1IpO8MsvoSVi5wW3KR-r51agEGR6OFURY` |
+| `drive-apps` アプリ・ツール開発エージェント | [11_アプリ・ツール開発](https://drive.google.com/drive/folders/1Z-XOKXI7vNu5IiRx2uHNTbH-mJVmKxk3) | `1Z-XOKXI7vNu5IiRx2uHNTbH-mJVmKxk3` |
 
 ## 使い方
 
@@ -27,3 +29,8 @@
 - 削除（ゴミ箱、30日間は復元可）：Google Keep 書き出し一式、無線LANドライバ一式（AC1300）、重複ファイル、中身が空のファイル、空になった旧フォルダ。
 - 「無題」ファイルのうち中身があったものは削除せず、内容がわかる名前に変更した。
 - 「山内さん」フォルダは指示どおりそのまま（他者所有ファイルを含む）。
+
+## 追加整理（2026-10-12）
+- マイドライブ直下にあった「C-QUES-GOU.K」（Apps Script）と「C-QUES-NET 回答一覧」（スプレッドシート）を、新フォルダ「11_アプリ・ツール開発 / C-QUES（アンケートアプリ）」へ移動した。ファイルIDは変わらないので、スクリプトとシートのつながりはそのまま。
+- 担当スキル `drive-apps` を追加した。
+- 「ドライブ整理計画_20261008」を「00_Claudeエージェント設定」へ移動した。
